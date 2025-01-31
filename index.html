@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>John Doe's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>John Doe's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>John Doe</h2>
+            <p>Full-Stack Developer & Freelancer</p>
+            <p>I'm a passionate full-stack developer with over 5 years of experience in building web applications. I also offer freelance services for a variety of projects.</p>
+            <button onclick="window.location.href='#contact'">Hire Me</button>
+            <button onclick="window.location.href='#contact'">Download CV</button>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <p>Explore my professional journey and the impact I've made at each organization.</p>
+
+            <div class="job">
+                <h3>Full-Stack Developer, Acme Inc.</h3>
+                <p>Jan 2020 - Present</p>
+                <ul>
+                    <li>Developed and maintained complex web applications using React, Node.js, and PostgreSQL.</li>
+                    <li>Implemented robust testing frameworks and CI/CD pipelines to ensure code quality and reliability.</li>
+                    <li>Collaborated with cross-functional teams to design and deliver innovative features that exceeded user expectations.</li>
+                    <li>Mentored junior developers and shared best practices to improve team productivity and skills.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Front-End Developer, Widgets Inc.</h3>
+                <p>Jun 2017 - Dec 2019</p>
+                <ul>
+                    <li>Designed and implemented responsive user interfaces using React, Redux, and Sass.</li>
+                    <li>Optimized web application performance and accessibility to provide an exceptional user experience.</li>
+                    <li>Collaborated with back-end developers to integrate seamless data flows and API integrations.</li>
+                    <li>Participated in agile development processes and contributed to project planning and estimation.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p>Explore a selection of my recent freelance and personal projects.</p>
+
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A responsive e-commerce website built with Next.js and Stripe.</p>
+                <button onclick="window.location.href='#'">Live Demo</button>
+                <button onclick="window.location.href='#'">GitHub</button>
+            </div>
+
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A SaaS platform for managing team workflows built with React, Node.js, and MongoDB.</p>
+                <button onclick="window.location.href='#'">Live Demo</button>
+                <button onclick="window.location.href='#'">GitHub</button>
+            </div>
+
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A personal blog built with Next.js, Markdown, and Tailwind CSS.</p>
+                <button onclick="window.location.href='#'">Live Demo</button>
+                <button onclick="window.location.href='#'">GitHub</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out to discuss your project or job openings.</p>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 John Doe. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
